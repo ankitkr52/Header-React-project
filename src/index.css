@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+
+@theme {
+  /* Colors */
+  --color-primary: #d22715;
+  --color-secondary: #980a07;
+  --color-primary-dark: #7e1108;
+
+  /* Optional: Container max-width customize kar sakte ho (breakpoints ke liye) */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+}
+@utility container {
+  @apply mx-auto;               /* center: true wala effect */
+
+  padding-inline: 1rem;         /* DEFAULT padding = 1rem */
+
+  @variant sm {
+    padding-inline: 2rem;       /* sm breakpoint se 2rem padding */
+  }
+  @variant lg {
+    padding-inline: 3rem;
+  }
+}
+@layer utilities{
+   .text-shadow{
+ text-shadow: 2px 2px 2px #1128015b;
+   }
+   .img-shadow{
+    filter: drop-shadow(40px 50px 25px #2b1800d4);
+   }
+}

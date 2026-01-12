@@ -17,21 +17,21 @@ const Hero = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-h-162.5 place-items-center">
                         {/* text-contaimer in hero section */}
                         <div className='text-white space-y-4 p-4 mt-70 md:mt-0'>
-                            <h1 className='text-3xl pl-6 md:pl-14'>01_______</h1>
-                            <h1 className='text-5xl font-bold uppercase text-shadow'>A Healthy Fruit</h1>
-                            <p className='text-sm'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, molestias sit magni perspiciatis deleniti eum id laborum soluta?</p>
-                            <button className=' border border-white px-4 py-2 rounded-lg'>Shop Now</button>
+                            <h1 data-aos="fade-right" className='text-3xl pl-6 md:pl-14'>01_______</h1>
+                            <h1 data-aos="fade-left" data-aos-delay="300" className='text-5xl font-bold uppercase text-shadow text-black'>A Healthy Fruit</h1>
+                            <p data-aos="fade-up"data-aos-delay="600" className='text-sm'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, molestias sit magni perspiciatis deleniti eum id laborum soluta?</p>
+                            <button data-aos="fade-up" className=' border border-white px-4 py-2 rounded-lg'>Shop Now</button>
                         </div>
                         {/* image-container  */}
                         <div>
 
-                            <img src={Heroimg} alt="" className="w-400px md:w-600px rounded-xl object-cover img-shadow relative z-1" />
+                            <img src={Heroimg} alt="" data-aos="zoom-in"data-aos-delay="200" className="w-400px md:w-600px rounded-xl object-cover img-shadow relative z-1" />
                         </div>
                         {/* blank container */}
                         <div className='md:hidden'></div>
                     </div>
                 </div>
-                <h1 className='text-center text-white uppercase font-bold text-[80px] sm:text-[120px] md:text-[150px] xl:text-[180px] absolute bottom-0 w-full z-0 text-shadow'>Berries</h1>
+                <h1 data-aos='fade-up'data-aos-delay="500" className='text-center text-white uppercase font-bold text-[80px] sm:text-[120px] md:text-[150px] xl:text-[180px] absolute bottom-0 w-full z-0 text-shadow'>Berries</h1>
                 {
                     sidebar && (
                         <div className='absolute top-0 right-0 w-30 h-full bg-linear-to-b from-primary to-secondary z-10'>
@@ -44,14 +44,14 @@ const Hero = () => {
                                 </div>
 
                                 <div className='inline-block p-2 rounded-full text-white cursor-pointer border-4 border-primary' >
-                                    <GrInstagram  className='text-2xl'/>
+                                    <GrInstagram className='text-2xl' />
                                 </div>
 
                                 <div className='inline-block p-2 rounded-full text-white cursor-pointer border-4 border-primary'>
-                                  <ImGithub className='text-2xl'/>
+                                    <ImGithub className='text-2xl' />
                                 </div>
                                 <div className='inline-block p-2 rounded-full text-white cursor-pointer border-4 border-primary'>
-                                  <FaLinkedin className='text-2xl'/>
+                                    <FaLinkedin className='text-2xl' />
                                 </div>
                                 <div className='w-1 h-20 bg-white'> </div>
                             </div>

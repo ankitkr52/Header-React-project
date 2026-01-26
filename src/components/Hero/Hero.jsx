@@ -19,7 +19,7 @@ const Hero = () => {
                         <div className='text-white space-y-4 p-4 mt-70 md:mt-0'>
                             <h1 data-aos="fade-right" className='text-3xl pl-6 md:pl-14'>01_______</h1>
                             <h1 data-aos="fade-left" data-aos-delay="300" className='text-5xl font-bold uppercase text-shadow text-black'>A Healthy Fruit</h1>
-                            <p data-aos="fade-up"data-aos-delay="600" className='text-sm'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, molestias sit magni perspiciatis deleniti eum id laborum soluta?</p>
+                            <p data-aos="fade-up"data-aos-delay="600" className='text-sm'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, molestias Lorem, ipsum dolor.sit magni perspiciatis deleniti eum id laborum soluta?</p>
                             <button data-aos="fade-up" className=' border border-white px-4 py-2 rounded-lg'>Shop Now</button>
                         </div>
                         {/* image-container  */}

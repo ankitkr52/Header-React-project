@@ -9,13 +9,13 @@ const Navbar = ({sidebar,setSidebar}) => {
             <h1 data-aos="fade-up-right" className=' text-4xl font-bold uppercase text-black'>Straw<span className='font-normal text-white'>Berries</span></h1>
             <ul data-aos="fade-left" className='lg:flex space-x-14 text-xl hidden'>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li>
                     <a href="#">Where to Find</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
             <div onClick={()=>setSidebar(!sidebar)}>
